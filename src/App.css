@@ -38,6 +38,13 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+main {
+  /* when border is removed the width will be correct */
+  border: 1px black solid;
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ADCCBD;
 }

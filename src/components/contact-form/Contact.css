@@ -1,0 +1,60 @@
+.contact-container {
+    width: 50dvw;
+    height: 60dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form {
+    background-color: #2E664B;
+    color: #fff;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    color: white;
+    background-color: #43946D;
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    padding: 1em;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #ddd;
+}
+
+#send-mail-btn {
+    background-color: #67E6A8;
+    color: #fff;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .6s;
+}
+
+#send-mail-btn:hover {
+    background-color: #1E4231;
+}

@@ -6,14 +6,14 @@ export const Header = () => {
     <header>
       <nav>
         <ul>
-          <a href="#Home" className="nav-link">
+          <a href="#top" className="nav-link">
             <li>Home </li>
           </a>
           <a href="#about" className="nav-link">
             <li>About</li>
           </a>
 
-          <a href="#contact" className="nav-link">
+          <a href="#contact-form" className="nav-link">
             <li>Let's Talk </li>
           </a>
         </ul>
