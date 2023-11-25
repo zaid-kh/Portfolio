@@ -9,6 +9,9 @@ export const Header = () => {
           <a href="#top" className="nav-link">
             <li>Home </li>
           </a>
+          <a href="#projects" className="nav-link">
+            <li>Projects</li>
+          </a>
           <a href="#about" className="nav-link">
             <li>About</li>
           </a>
